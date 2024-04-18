@@ -1,0 +1,120 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+main{
+    background-color: navy;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.navBar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    margin-right: 5%;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 1em;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-top: 35px;
+    margin-left: 20px;
+    border-radius: 1px;
+}
+.hero_content_icon{
+    display: flex;
+    gap: 10px;
+    
+}
+.hero_content_icon > div{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 50px;
+    background-color: aqua;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    background-color:navy;
+}
+.mypicture{
+    width: 10%;
+    height: 10%;
+    margin-top: 9%;
+    margin-right: 20%;
+}
+.aboutme{
+    margin-top: 10%;
+    color:aqua;
+    font-style: italic;
+    margin-left: 10%;
+}
+/*
+.btn{
+    border-radius: 5px;
+    justify-content: space-between;
+}
+*/
+.aboutme button{
+    background-color: darkblue;
+    padding: 5px;
+    color:aqua;
+    border-color:red;
+    border-radius:25%;
+    border: dotted;
+    gap: 30px;
+}
+.aboutme button:hover{
+    color:red;
+}
+
+.section2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    color: aqua;
+}
+.section2 h6{
+    color: red;
+}
+.section2 span{
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: minmax(150px auto);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+.blockBox{
+    background-color: darkblue;
+    color: aqua;
+    justify-content: center;
+    padding: 10px;
+}
